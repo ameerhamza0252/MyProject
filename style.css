@@ -1,0 +1,114 @@
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+   sans-serif;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+.header1{
+    height:3vh;
+    width: 100%;
+    background-color:#2ECC40;
+    font-size:small;
+    text-align: center;
+    color:#fff;
+}
+.header{
+    position: sticky;
+    top: 0%;
+    width:100vw;
+    background-color: #181a1d;
+    font-family:Biryani;
+    font-size:15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    color: #ffff;
+}
+#header_logo{
+    height:4rem;
+    max-width:100%;
+    object-fit:cover;
+    transition: 0.5s;
+    scale: 1.1;
+    margin-left:2rem;
+}
+
+#header_logo:hover{
+    scale:1.5;
+}
+ul a{
+    text-decoration: none;
+    color:#fff;
+    transition: 0.2s;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    margin-right:2rem;
+}
+ul a:hover{
+    color: #2ECC40;
+}
+#btn_nav{
+    display:none;
+}
+.banner{
+    margin-top:10vh;
+    height:80vh;
+}
+
+.banner_text{
+    color: #fff;
+    text-align: center;
+    font-weight:800;
+    font-stretch: expanded;
+    font-family: Biryani,'Roboto',Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #1f2327;
+    box-shadow: 10px 10px 5px #aaa;
+    background-color: #181a1d; 
+    height: 60vh;
+    max-width:100%;
+    display: grid;
+    place-content: center;
+ 
+}
+
+@media screen and (max-width:768px) {
+    .header_list{
+        width:100%;
+        height:0;  
+        transition: height 0.8s;
+        overflow: hidden;
+        background-color: #181a1d;
+    }
+    #header_logo{
+        height: 2rem;
+        scale:1.2;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    li{
+        width:100%;
+        text-align:center;
+    }
+    #btn_nav{
+        background:none;
+        border:none;
+        scale: 1.3;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}

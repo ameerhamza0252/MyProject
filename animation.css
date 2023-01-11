@@ -1,0 +1,23 @@
+#svg-laptop,.banner_text{
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-name: slideIn;       
+}
+#svg-laptop{
+    width: 100%;
+    cursor: pointer;
+    transition:0.5s; 
+}
+#svg-laptop:hover{
+    scale:1.1;
+}
+@keyframes slideIn{
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

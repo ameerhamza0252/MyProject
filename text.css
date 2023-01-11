@@ -1,0 +1,65 @@
+#txt01,#txt02{
+    color:#2ECC40;
+}
+#service_box01,#technologies{
+    font-size:25px;
+    width:100%;
+    height: fit-content;
+    text-align: center; 
+    margin-top:10vh;
+}
+#service_box01 h2{
+    font-size: 2rem;
+}
+#hire_me a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #2ECC40;
+    border-radius:5px;
+    font-size:15px;
+    padding:1rem;
+    background-color:transparent;
+    transition: 1s;
+    margin: 5px;
+}
+#hire_me a:hover{
+    background-color: #2ECC40;
+    scale: 1.1;
+}
+.svg_icons{
+    height: inherit;
+    padding:5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#technologies{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+#s-img{
+    width:50%;
+    height: auto;
+}
+.services{
+    max-height:80vh;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.logo-img{
+    width:150px;
+    height:150px;
+}
+#technologies i{
+    font-size: 90px;
+    width:fit-content;
+    height:fit-content;
+}
