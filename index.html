@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="./text.css" type="text/css">
     <link rel="stylesheet" href="./animation.css" type="text/css">
-    <script  src="./script.js"></script>
+    
     <title>Ameer Hamza</title>
 </head>
 <body>
@@ -21,35 +21,104 @@
     </div>
 
     <div class="header">
-        <div><img src="./logo/header_icon.png" alt="ameerhamza-logo" id='header_logo' ></div>
+       
+        <div>
+            <img src="./logo/header_icon.png" alt="ameerhamza-logo" id='header_logo' >  
+        </div>
         <button id="btn_nav" onclick="menu()"><i class="fa fa-fw fa-bars"></i></button>
         <div class="header_list" id="top">
             <ul>
                 <li><a href="#"><i class="fa fa-fw fa-home" ></i>Home</a></li>
-                <li><a href="#service_box01"><i class="fa fa-fw fa-briefcase"></i>Services</a></li>
+                <li><a href="#service_box"><i class="fa fa-fw fa-briefcase"></i>Services</a></li>
                 <li><a href="#"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
             </ul>
         </div>
+    
     </div>
     
     <div class="banner">
-
+      
         <div class="banner_text">
-                
-            
                 <svg id="svg-laptop" height ="150px" width="150px" viewBox="0 -297 1618 1618" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_iconCarrier"><path d="M1495.104759 90.099858C1495.104759 40.373123 1454.731636 0 1405.004901 0H203.686957C153.960221 0 113.587099 40.373123 113.587099 90.099858v810.890624h1381.51766V90.099858z" fill="#2ECC40"></path>
                 <path d="M1435.040885 108.345676c0-23.025834-18.695083-41.71687-41.720917-41.71687H221.932775c-23.025834 0-41.71687 18.691036-41.71687 41.71687v792.644806h1254.82498V108.345676z" fill="#FFFFFF"></path>
                 <path d="M927.76019 66.628806h-240.263589v18.780079a18.788174 18.788174 0 0 0 18.776031 18.776032h202.707479a18.788174 18.788174 0 0 0 18.780079-18.776032v-18.780079zM1615.236553 906.99687c0-3.314846-2.691542-6.006387-6.006387-6.006388H6.022577c-3.314846 0-6.006387 2.691542-6.006387 6.006388v54.057486c0 33.152506 26.915415 60.067921 60.067921 60.067921h1495.088569c33.148458 0 60.063874-26.915415 60.063873-60.067921v-54.057486z" fill="#2ECC40"></path>
                 <path d="M987.824063 888.411067h-360.395383c0 31.14498 25.2843 56.425233 56.425233 56.425233h247.544917c31.140933 0 56.425233-25.280253 56.425233-56.425233z" fill="#FFFFFF"></path>
                 <path d="M867.234909 77.55687m-10.928063 0a10.928063 10.928063 0 1 0 21.856126 0 10.928063 10.928063 0 1 0-21.856126 0Z" fill="#2ECC40"></path></g></svg>
-                
-                <h1>Let's Make Your <span id="txt01">Vision</span> A <span>Reality !</span></h1>
-                <span id="hire_me"><a>Download CV<i class="fa fa-fw fa-download"></i></a><a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/" target="_blank">Linkedin<i class="fa fa-fw fa-linkedin-square"></i></a></span>
-
-        </div>   
+                <h1>Let's Make Your <span id="txt01">Vision</span> A <span>Reality!</span></h1>
+                <span class="banner_btn"><a>Download CV<i class="fa fa-fw fa-download"></i></a><a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/" target="_blank">Linkedin<i class="fa fa-fw fa-linkedin-square"></i></a></span>
+         </div>
     </div>
+  
+    <div class='Services'  id="service_box">
+     
+        <h1><span id="txt02">Services</span></h1>
+        <div class='service-container'>
+           
+            <div class='service-card reveal'>
+                <h2>Website-FrontEnds</h2>
+                    <i class='fa fa-fw fa-wordpress icons'></i>
+                    <i class='fa fa-fw fa-html5 icons'></i>
+                    <i class='fa fa-fw fa-css3 icons'></i>
+                    <i class='fa fa-fw fa-database icons'></i>
+                    
+                <h3>Responsive and <span class='txt01'>Creative</span> FrontEnd Designs</h3>
+                <p>With teams of proffesionals we offere Web services of all technologies</p>
+                
+            </div>
+            
 
+            <div class='service-card reveal'>
+                <h2>Maintenance</h2>
+                    <i class='fa fa-fw fa-desktop icons'></i>
+                    <i class='fa fa-fw fa-tablet icons'></i>
+                    <i class='fa fa-fw fa-tv icons'></i>
+                    <i class='fa fa-fw fa-mobile icons'></i>
+                <h3>Upto <span class='txt01'>1 Year</span> of free maintenance</h3>
+                <p>After Project Delivery StarCoding Provides 1 Year of Free Maintenance</p>
+            </div>
+
+            <div class='service-card reveal'>
+                <h2>Business Solutions</h2>
+                    <i class='fa fa-fw fa-book icons'></i>
+                    <i class='fa fa-fw fa-calculator icons'></i>
+                    <i class='fa fa-fw fa-calendar icons'></i>
+                    <i class='fa fa-fw fa-pie-chart icons'></i>
+                <h3>We Provide <span class='txt01'>Business</span> Solutions</h3>
+                <p>Creative Technological Solutions for Your Businesses</p>
+            </div>
+
+            <div class='service-card reveal'>
+                <h2>App Developement</h2>
+                    <i class='fa fa-fw fa-apple icons'></i>
+                    <i class='fa fa-fw fa-android icons'></i>
+                    <i class='fa fa-fw fa-tablet icons'></i>
+                    <i class='fa fa-fw fa-mobile icons'></i>
+                <h3>Mobile <span class='txt01'>Application</span> For Smart Devices</h3>
+                <p>Optimized Application for all Smart Devices</p>
+            </div>
+
+            <div class='service-card reveal'>
+                <h2>Embedded Systems</h2>
+                    <i class='fa fa-fw fa-laptop icons'></i>
+                    <i class='fa fa-fw fa-code icons'></i>
+                    <i class='fa fa-fw fa-rocket icons'></i>
+                    <i class='fa fa-fw fa-windows icons'></i>
+                <h3>Embedded <span class='txt01'>Software</span> For Smart Devices</h3>
+                <p>Optimized Application for all Smart Devices</p>
+            </div>
+            
+            <div class='service-card reveal'>
+                <h2>App Developement</h2>
+                    <i class='fa fa-fw fa-apple icons'></i>
+                    <i class='fa fa-fw fa-android icons'></i>
+                    <i class='fa fa-fw fa-tablet icons'></i>
+                    <i class='fa fa-fw fa-mobile icons'></i>
+                <h3>Mobile <span class='txt01'>Application</span> For Smart Devices</h3>
+                <p>Optimized Application for all Smart Devices</p>
+            </div>
+        </div>
+    </div>
     <div id="technologies">
         <span><h2>With<span id="txt02"> Technologies</span> Like</h2></span>
         <div class="svg_icons">
@@ -82,13 +151,57 @@
             <i class="fa fa-fw fa-amazon logo-img"style="color: #FF9900;"></i>
             <i class="fa fa-fw fa-linux logo-img"></i>
         </div>
+        <img src="./sapiens.svg" alt="sapiens-logo" id="s-img">
     </div>
-
-    <div class="services">
+    <div class="alert-msg slide-in">
+        <div>Sorry Folks Site is</div>
+        <div><svg version="1.1" id="Layer_1" height="100"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 508 508" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle style="fill:#2ECC40;" cx="254" cy="254" r="254"></circle> <path style="fill:#181a1d;" d="M273.6,277.2v230c-6.4,0.4-12.8,0.8-19.6,0.8c-6.4,0-13.2-0.4-19.6-0.8v-230H273.6z"></path> <path style="fill:#FFFFFF;" d="M248.4,454.8L53.2,259.6c-3.2-3.2-3.2-8.4,0-11.6L248.4,52.8c3.2-3.2,8.4-3.2,11.6,0L455.2,248 c3.2,3.2,3.2,8.4,0,11.6L260,454.8C256.4,458,251.6,458,248.4,454.8z"></path> <rect x="131.206" y="131.201" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -105.2088 254.0034)" style="fill:#181a1d;" width="245.598" height="245.598"></rect> <g> <path style="fill:#FFFFFF;" d="M198.4,220.4c0.8,1.2,2,1.6,3.6,1.6s2.8-0.4,3.6-1.6c0.8-1.2,1.2-2.8,1.2-4.4v-13.2h5.2v13.6 c0,3.6-0.8,6-2.8,8s-4.4,2.8-7.2,2.8c-3.2,0-5.6-0.8-7.6-2.8s-2.8-4.4-2.8-8v-13.6h5.2V216C197.2,217.6,197.6,219.2,198.4,220.4z"></path> <path style="fill:#FFFFFF;" d="M234.8,202.4h5.2v24h-5.2l-11.6-15.2v15.2H218v-24h5.2l11.6,15.6V202.4z"></path> <path style="fill:#FFFFFF;" d="M264.4,205.6c2.4,2,3.6,5.2,3.6,8.8s-1.2,6.8-3.2,8.8c-2.4,2-5.6,3.2-10.4,3.2H246v-24h8.4 C258.8,202.4,262.4,203.6,264.4,205.6z M260.4,220c1.2-1.2,2-3.2,2-5.2c0-2.4-0.8-4-2-5.6c-1.2-1.2-3.2-2-6-2h-2.8V222h3.6 C257.2,221.6,259.2,221.2,260.4,220z"></path> <path style="fill:#FFFFFF;" d="M290,202.4v4.8h-12v4.8h10.8v4.4H278v4.8h12.4v4.8h-17.6v-24H290V202.4z"></path> <path style="fill:#FFFFFF;" d="M314.8,210.4c0,4-1.6,6.4-4.4,7.6l6,8.4h-6.8l-5.2-7.6h-3.6v7.6h-5.2v-24h9.2c3.6,0,6.4,0.8,8,2 C314,205.6,314.8,207.6,314.8,210.4z M308,213.2c0.8-0.4,0.8-1.6,0.8-2.8s-0.4-2-1.2-2.8c-0.8-0.4-2-0.8-3.6-0.8h-4v7.2h4 C306.4,214,307.6,214,308,213.2z"></path> <path style="fill:#FFFFFF;" d="M125.6,260c2.8,0,4.8-1.2,6.4-3.2l3.6,3.6c-2.8,3.2-6,4.4-9.6,4.4c-3.6,0-6.8-1.2-9.2-3.6 c-2.4-2.4-3.6-5.2-3.6-8.8c0-3.6,1.2-6.4,3.6-8.8c2.4-2.4,5.2-3.6,8.8-3.6c4,0,7.2,1.6,10,4.4l-3.2,3.6c-1.6-2-3.6-3.2-6.4-3.2 c-2,0-3.6,0.8-5.2,2s-2,3.2-2,5.2c0,2.4,0.8,4,2,5.2C122.4,259.6,124,260,125.6,260z"></path> <path style="fill:#FFFFFF;" d="M159.2,261.6c-2.4,2.4-5.2,3.6-8.8,3.6s-6.4-1.2-8.8-3.6c-2.4-2.4-3.6-5.2-3.6-8.8s1.2-6.4,3.6-8.8 c2.4-2.4,5.2-3.6,8.8-3.6s6.4,1.2,8.8,3.6c2.4,2.4,3.6,5.2,3.6,8.8C162.8,256.4,161.6,259.2,159.2,261.6z M157.6,252.8 c0-2-0.8-4-2-5.6s-3.2-2.4-5.2-2.4s-3.6,0.8-5.2,2.4c-1.2,1.6-2,3.2-2,5.6c0,2,0.8,4,2,5.6s3.2,2.4,5.2,2.4s3.6-0.8,5.2-2.4 C156.8,256.8,157.6,254.8,157.6,252.8z"></path> <path style="fill:#FFFFFF;" d="M184,241.2h5.2v24H184L172.8,250v14.8h-5.2v-24h4.8L184,256L184,241.2L184,241.2z"></path> <path style="fill:#FFFFFF;" d="M200.8,246c-0.4,0.4-0.8,0.8-0.8,1.6s0.4,1.2,0.8,1.6c0.8,0.4,2,0.8,4.4,1.6c2.4,0.4,4,1.2,5.2,2.4 c1.2,1.2,2,2.8,2,4.8s-0.8,4-2.4,5.2c-1.6,1.2-3.6,2-6.4,2c-3.6,0-7.2-1.2-10-4l3.2-4c2.4,2.4,4.8,3.2,7.2,3.2 c0.8,0,1.6-0.4,2.4-0.8c0.4-0.4,0.8-0.8,0.8-1.6c0-0.8-0.4-1.2-0.8-1.6c-0.4-0.4-1.6-0.8-3.6-1.2c-2.8-0.8-4.8-1.6-6-2.4 c-1.2-1.2-2-2.8-2-4.8c0-2.4,0.8-4,2.4-5.2c1.6-1.2,3.6-2,6-2c1.6,0,3.2,0.4,4.8,0.8c1.6,0.4,2.8,1.2,4,2.4l-2.8,4 c-2-1.6-4.4-2.4-6.4-2.4C202,245.2,201.2,245.2,200.8,246z"></path> <path style="fill:#FFFFFF;" d="M226.8,245.6v19.2h-5.2v-19.2h-6.8v-4.4h18.8v4.4L226.8,245.6L226.8,245.6z"></path> <path style="fill:#FFFFFF;" d="M256.8,248.8c0,4-1.6,6.4-4.4,7.2l6,8.4H252l-5.2-7.6h-3.6v7.6H238v-24h9.2c3.6,0,6.4,0.8,8,2 C256,244,256.8,246,256.8,248.8z M250.4,251.6c0.8-0.4,0.8-1.6,0.8-2.8s-0.4-2-1.2-2.8c-0.8-0.4-2-0.8-3.6-0.8h-4v7.2h4 C248.4,252.8,249.6,252.4,250.4,251.6z"></path> <path style="fill:#FFFFFF;" d="M268.4,258.8c0.8,1.2,2,1.6,3.6,1.6s2.8-0.4,3.6-1.6c0.8-1.2,1.2-2.8,1.2-4.4v-13.2h5.2v13.2 c0,3.6-0.8,6-2.8,8s-4.4,2.8-7.2,2.8s-5.6-0.8-7.2-2.8c-2-2-2.8-4.4-2.8-8v-13.2h5.2v13.2C267.2,256,267.6,257.6,268.4,258.8z"></path> <path style="fill:#FFFFFF;" d="M298.8,260c2.8,0,4.8-1.2,6.4-3.2l3.6,3.6c-2.8,3.2-6,4.4-9.6,4.4s-6.8-1.2-9.2-3.6 c-2.4-2.4-3.6-5.2-3.6-8.8c0-3.6,1.2-6.4,3.6-8.8c2.4-2.4,5.2-3.6,8.8-3.6c4,0,7.2,1.6,10,4.4l-3.2,3.6c-1.6-2-3.6-3.2-6.4-3.2 c-2,0-3.6,0.8-5.2,2s-2,3.2-2,5.2c0,2.4,0.8,4,2,5.2C295.2,259.6,296.8,260,298.8,260z"></path> <path style="fill:#FFFFFF;" d="M322.8,245.6v19.2h-5.2v-19.2h-6.8v-4.4h18.8v4.4L322.8,245.6L322.8,245.6z"></path> <path style="fill:#FFFFFF;" d="M333.2,241.2h5.2v24h-5.2V241.2z"></path> <path style="fill:#FFFFFF;" d="M364.4,261.6c-2.4,2.4-5.2,3.6-8.8,3.6c-3.6,0-6.4-1.2-8.8-3.6s-3.6-5.2-3.6-8.8s1.2-6.4,3.6-8.8 c2.4-2.4,5.2-3.6,8.8-3.6c3.6,0,6.4,1.2,8.8,3.6c2.4,2.4,3.6,5.2,3.6,8.8C368,256.4,366.8,259.2,364.4,261.6z M362.8,252.8 c0-2-0.8-4-2-5.6s-3.2-2.4-5.2-2.4s-3.6,0.8-5.2,2.4c-1.2,1.6-2,3.2-2,5.6c0,2,0.8,4,2,5.6s3.2,2.4,5.2,2.4s3.6-0.8,5.2-2.4 C362,256.8,362.8,254.8,362.8,252.8z"></path> 
+        <path style="fill:#FFFFFF;" d="M389.2,241.2h5.2v24h-5.2L378,250v14.8h-5.2v-24h4.8l11.6,15.2L389.2,241.2L389.2,241.2z"></path> </g> </g></svg></div>
     </div>
-
-    <div id="service_box01">
-        <h2>Creative and<span id="txt02"> Responsive</span> Designs</h2><img src="./sapiens.svg" alt="sapiens-logo" id="s-img">
-    </div>
+    <div class="footer">
+        <div class="container2">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="https://www.google.com">FAQ</a></li>
+                        <li><a href="https://www.google.com/Projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/PforPanda1"><i class="fa fa-fw fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ameer_hamza_aka_hamo/"><i class="fa fa-fw fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/"><i class="fa fa-fw fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script  src="./script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAblKsTPAqMVffkMp2CuPrXYPJgzVX61D0",
+          authDomain: "ameerhamza-6a444.firebaseapp.com",
+          projectId: "ameerhamza-6a444",
+          storageBucket: "ameerhamza-6a444.appspot.com",
+          messagingSenderId: "685732642072",
+          appId: "1:685732642072:web:98913c61297ea90f14f26d",
+          measurementId: "G-1EC5WWRPBM"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
