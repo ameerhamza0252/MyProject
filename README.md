@@ -10,3 +10,6 @@ Font Awesome (for icons)
 Google Fonts (Biryani font)
 SVG images
 External libraries (Font Awesome, Google Fonts)
+
+#Live on Firebase
+https://ameerhumza.web.app/
