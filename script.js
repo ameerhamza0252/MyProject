@@ -28,12 +28,12 @@ function reveal() {
   }
   window.addEventListener("scroll", reveal);
 
-var cards = document.getElementsByClassName("service-card");
-var index = 1;
-function selectedHover(){
-  cards[index].classList.add('tempHover');
-}
-function mouseOver() {
-  cards[index].classList.remove('tempHover');
-}
-selectedHover();
+  var cards = document.getElementsByClassName("service-card");
+  var index = 1;
+  function selectedHover(){
+    cards[index].classList.add('tempHover');
+  }
+  function mouseOver() {
+    cards[index].classList.remove('tempHover');
+  }
+  selectedHover();
