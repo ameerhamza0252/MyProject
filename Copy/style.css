@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2ECC40;
+    --primary-color: #d63f3f;
   }
 
 body{
@@ -15,7 +15,7 @@ body{
 .header1{
     height:3vh;
     width: 100%;
-    background-color:var(--primary-color);
+    background-color:#2ECC40;
     font-size:small;
     text-align: center;
     color:#fff;
@@ -25,7 +25,7 @@ body{
     top: 0%;
     width:100%;
     background-color: #181a1d;
-    border: 2px solid var(--primary-color);;
+    border: 2px solid #2ECC40;
     border-left: none;
     border-top: none;
     font-family:Biryani;
@@ -63,7 +63,7 @@ ul{
     margin-right:2rem;
 }
 ul a:hover{
-    color: var(--primary-color);;
+    color: #2ECC40;
 }
 #btn_nav{
     display:none;
@@ -90,6 +90,7 @@ ul a:hover{
  
 }
 .Services{
+    width: 100%;
     text-align: center;
   }
   .service-container{
@@ -101,28 +102,21 @@ ul a:hover{
   }
   .service-card{
     max-height:22rem;
-    width:20rem;
+    max-width:21rem;
     padding:1rem;
     z-index:10;
     box-shadow: 2px 2px 5px 2px #4a4a4a;
-    border-top: 10px solid var(--primary-color);;
     transition: 0.5s;
-    color:#323940;
   }
   .service-card:hover{
     scale:1.1;
     background-color: #181a1d;
     color: #fff;
+    box-shadow: 2px 2px 5px 2px #2ECC40;
   }
-.tempHover{
-    scale:1.1;
-    background-color: #181a1d;
-    color: #fff;
-    box-shadow: 2px 2px 5px 2px var(--primary-color);;
-}
   .icons{
    font-size: 50px;
-   color: var(--primary-color);;
+   color: #2ECC40;
   }
 #s-img{
     max-width: 70%;
@@ -186,7 +180,7 @@ ul a:hover{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: var(--primary-color);;
+	background-color: #2ECC40;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -221,13 +215,13 @@ ul a:hover{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: var(--primary-color);;
+	color: #2ECC40;
 	background-color: #fff;
 }
 @media screen and (max-width:768px) {
     .header_list{
         width:100%;
-        height:0;
+        height:0;  
         transition: height 0.8s;
         overflow: hidden;
         background-color: #181a1d;
@@ -265,9 +259,5 @@ ul a:hover{
     .service-card{
         background-color: #181a1d;
         color: #fff;
-        font-size: small;
       }
-    .icons{
-        font-size:40px;
-    }
 }
