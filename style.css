@@ -1,5 +1,6 @@
 :root {
     --primary-color: #2ECC40;
+    --secondary-color: #181a1d;
   }
 
 body{
@@ -10,7 +11,6 @@ body{
    sans-serif;
    overflow-x:hidden;
    scroll-behavior: smooth;
-  
 }
 .header1{
     height:3vh;
@@ -24,7 +24,7 @@ body{
     position: sticky;
     top: 0%;
     width:100%;
-    background-color: #181a1d;
+    background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);;
     border-left: none;
     border-top: none;
@@ -79,7 +79,7 @@ ul a:hover{
 .banner_text{
     color: #fff;
     text-align: center;
-    background-color: #181a1d; 
+    background-color: var(--secondary-color); 
     display: grid;
     place-content: center;
     font-weight:800;
@@ -112,12 +112,12 @@ ul a:hover{
   }
   .service-card:hover{
     scale:1.1;
-    background-color: #181a1d;
+    background-color: var(--secondary-color);
     color: #fff;
   }
 .tempHover{
     scale:1.1;
-    background-color: #181a1d;
+    background-color: var(--secondary-color);
     color: #fff;
     box-shadow: 2px 2px 5px 2px var(--primary-color);;
 }
@@ -130,7 +130,7 @@ ul a:hover{
     height: auto;
 }
 .alert-msg {
-       background: #181a1d;
+       background: var(--secondary-color);
        bottom: 25px;
        color: #fff;
        box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
@@ -163,7 +163,7 @@ ul a:hover{
     list-style: none;
  }
  .footer{
-	background-color: #181a1d;
+	background-color: var(--secondary-color);
     padding: 70px 0;
     margin-top: 10vh;
 }
@@ -231,7 +231,7 @@ ul a:hover{
         height:0;
         transition: height 0.8s;
         overflow: hidden;
-        background-color: #181a1d;
+        background-color: var(--secondary-color);
     }
     #header_logo{
         height: 2rem;
@@ -264,7 +264,7 @@ ul a:hover{
         font-size:0.8rem !important;
     }
     .service-card{
-        background-color: #181a1d;
+        background-color: var(--secondary-color);
         color: #fff;
         font-size: small;
       }

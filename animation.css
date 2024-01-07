@@ -8,6 +8,8 @@
 .thingBox{
   position: absolute;
   width:100px;
+  
+  background-color: #2ECC40;
   min-height:60vh;
   display: flex;
   flex-wrap: wrap;
@@ -16,17 +18,16 @@
   justify-content: center;
 }
 .thing {
-  width: 20px;
-  height: 20px;
+  width: 100%;
+  height: 5px;
   opacity: 0;
   font-size: large;
   margin-bottom: 10px;
-  background-color: #2ECC40;
-  clip-path: polygon(100% 20%, 160% 200%, 60% 0%, 10% 50%, 100% 100%, 0% 0%, 0% 0%);
-  
+  background-color: #fff;
+  transform: rotate(90deg);
   animation-name: pulse;
   animation-duration:4s;
-  animation-delay: 3s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
 }
 .thing:nth-child(1) {animation-delay: 0.0s; }
