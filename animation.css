@@ -8,8 +8,6 @@
 .thingBox{
   position: absolute;
   width:100px;
-  
-  background-color: #2ECC40;
   min-height:60vh;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +21,7 @@
   opacity: 0;
   font-size: large;
   margin-bottom: 10px;
-  background-color: #fff;
+  background-color: #2ECC40;
   transform: rotate(90deg);
   animation-name: pulse;
   animation-duration:4s;
@@ -62,4 +60,20 @@
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+.progress-bar-container {
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease;
 }
