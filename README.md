@@ -1,6 +1,6 @@
 #Description
 
-This HTML code is the foundation of the Ameer Hamza Software Solutions website. It includes sections for the header, banner, services, technologies, and an alert message. The website aims to showcase Ameer Hamza's expertise in software solutions.
+This HTML code is the foundation of the Ameer Hamza Software Solutions website.The website aims to showcase Ameer Hamza's expertise in software solutions.
 
 #Technologies Used
 HTML
@@ -11,5 +11,5 @@ Google Fonts (Biryani font)
 SVG images
 External libraries (Font Awesome, Google Fonts)
 
-#Live on Firebase
+#Live on Firebase cloud
 https://ameerhumza.web.app/
