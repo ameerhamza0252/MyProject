@@ -76,7 +76,21 @@ ul a:hover{
     display: grid;
     place-content: center;
 }
+#textService {
+    text-align: center;
+    font-size:24px; font-weight:500; letter-spacing:1px;
+    text-transform: uppercase;
+    color: #fff;
+    padding:10px;
+    background-color: #222;
+    width: 30%;
+}
+#Div_textService{
+width: 100%;
+display: inline-flex;
+justify-content: center;
 
+}
 .banner_text{
     color: #fff;
     text-align: center;
@@ -130,7 +144,7 @@ ul a:hover{
     max-width: 70%;
     height: auto;
 }
-.alert-msg {
+.alert-msg{
        background: var(--secondary-color);
        bottom: 25px;
        color: #fff;
@@ -271,6 +285,10 @@ ul a:hover{
       }
     .icons{
         font-size:40px;
+    }
+    #textService{
+        width: 100%;
+        margin-top: 10%;
     }
 }
 @media only screen and (min-width: 1530px) {
