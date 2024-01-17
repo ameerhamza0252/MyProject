@@ -1,6 +1,6 @@
 #Description
 
-This HTML code is the foundation of the Ameer Hamza Software Solutions website.The website aims to showcase Ameer Hamza's expertise in software solutions.
+This HTML code is the foundation of the Ameer Hamza Software Solutions website. The website aims to showcase Ameer Hamza's expertise in software solutions.
 
 #Technologies Used
 HTML
