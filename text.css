@@ -62,17 +62,18 @@
 }
 .timeline{
   position:relative;
-  width: 1200px;
-  margin: 100px auto;
+  width:98vw;
+  margin: auto;
 }
 .timeline_container{
-  padding:10px 50px;
   width:50%;
   position: relative;
+  padding: 10px;
 }
 .timeline_text_box{
   padding: 20px 30px;
-  background-color: #ddd;
+  background-color: var(--secondary-color);
+  color: #fff;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -86,14 +87,11 @@
 .timeline::after{
   content:' ';
   position: absolute;
-  width:6px;
-  height:100%;
+  width:8px;
+  height: 100%;
   background: #2ECC40;
   top:0;
   left: 50%;
   margin-left:-3px;
   z-index: -1;
-}
-.timeline_text_box{
-
 }
