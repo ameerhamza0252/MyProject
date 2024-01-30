@@ -73,22 +73,24 @@
 #conference-timeline .timeline-end {
   display: table;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   text-transform: uppercase;
   background: var(--primary-color);
   padding: 15px 23px;
   color: #fff;
   max-width: 5%;
+  height: 30px;
   width: 100%;
+
   text-align: center;
+  vertical-align: middle;
   margin: 0 auto;
 }
 #conference-timeline .conference-center-line {
   position: absolute;
   width: 3px;
-  height: 100%;
-  top: 0;
+  height: 90%;
   left: 50%;
   margin-left: -2px;
   background: var(--primary-color);
@@ -202,6 +204,7 @@
   #conference-timeline .conference-center-line {
     margin-left: 0;
     left: 50px;
+    height: 93%;
   }
   .timeline-article .meta-date {
     margin-left: 0;
@@ -232,12 +235,15 @@
     display: none;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .timeline-article p {
     margin: 0;
   }
   .timeline-article p span.article-number {
     display: none;
+  }
+  #conference-timeline .conference-center-line {
+    height: 96%;
   }
   
 }
