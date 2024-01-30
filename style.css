@@ -89,7 +89,7 @@ ul a:hover{
 width: 100%;
 display: inline-flex;
 justify-content: center;
-
+margin-top:50px;
 }
 .banner_text{
     color: #fff;
@@ -290,6 +290,7 @@ justify-content: center;
         width: 100%;
         margin-top: 10%;
     }
+    
 }
 @media only screen and (min-width: 1530px) {
     .service-container{
