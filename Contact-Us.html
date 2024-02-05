@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./logo/favlogo.png"/>
+    <link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./text.css" type="text/css">
+    <link rel="stylesheet" href="./animation.css" type="text/css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #161515;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .contact-form {
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            border-radius: 10px;
+            outline:none;
+            height: 30px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #2ECC40;
+            color: #f2f2f2;
+            cursor: pointer;
+            border-radius:5px ;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+       
+        <div>
+            <img src="./logo/header_icon.png" alt="ameerhamza-logo" id='header_logo' >  
+        </div>
+        <button id="btn_nav" onclick="menu()"><i class="fa fa-fw fa-bars"></i></button>
+        <div class="header_list" id="top">
+            <ul>
+                <li><a href="./index.html"><i class="fa fa-fw fa-home" ></i>Home</a></li>
+                <li><a href="#service_box"><i class="fa fa-fw fa-briefcase"></i>Services</a></li>
+                <li><a href="./Contact-Us.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="Div_textService">
+            <h1 id="textService">Our <span id="txt02">Services</span></h1>
+        </div>
+        <form class="contact-form">
+             
+            <input type="text" name="name" placeholder="Your Name" required >
+            <input type="email" name="email" placeholder="Your Email" required >
+            <textarea name="message" placeholder="Your Message" style="max-width: 600px; height:200px;" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="container2">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="https://www.google.com">FAQ</a></li>
+                        <li><a href="https://www.google.com/Projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://twitter.com/PforPanda1"><i class="fa fa-fw fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ameer_hamza_aka_hamo/"><i class="fa fa-fw fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/"><i class="fa fa-fw fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html> 

@@ -84,12 +84,14 @@ ul a:hover{
     padding:10px;
     background-color: #222;
     width: 30%;
+    border-radius: 5px 20px 5px;
 }
 #Div_textService{
 width: 100%;
 display: inline-flex;
 justify-content: center;
 margin-top:50px;
+
 }
 .banner_text{
     color: #fff;
