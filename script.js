@@ -50,3 +50,20 @@ updateProgressBar();
 window.addEventListener('scroll', updateProgressBar);
 window.addEventListener('resize', updateProgressBar);
 
+
+
+const headinglines=['Crafting Code, <span id="txt01">Shaping</span> Tomorrow',
+'Creating <span id="txt01">Pixels</span> and <span id="txt01">Pixels</span> of Possibilities',
+'Where <span id="txt01">Algorithms</span> Meet Aesthetics',
+`Let's Make Your <span id="txt01">Vision</span> A <span>Reality !</span>`];
+const heading_text = document.getElementById('heading_text');
+let heading_index = 0;
+const timeFunc = setInterval(()=>{
+heading_text.innerHTML=headinglines[heading_index];
+if(heading_index>=3){
+  heading_index=0;
+}
+else{
+  heading_index++;
+}
+},2000);
