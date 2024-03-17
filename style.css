@@ -268,7 +268,7 @@ margin-top:50px;
         scale:1.2;
     }
     #line{
-     display: none;
+     display: no;
     }
     ul{
         flex-direction: column;
