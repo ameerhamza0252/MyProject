@@ -116,6 +116,7 @@ margin-top:50px;
    place-content: center;
    gap:2rem;
    padding:1rem;
+   
   }
   .service-card{
     max-height:22rem;
@@ -129,13 +130,13 @@ margin-top:50px;
     cursor: pointer;
     background-color: #fff;
     z-index: 10;
+
   }
   .service-card:hover{
     scale:1.1;
     background-color: var(--secondary-color);
     color: #fff;
   }
-
 .tempHover{
     scale:1.1;
     background-color: var(--secondary-color);
