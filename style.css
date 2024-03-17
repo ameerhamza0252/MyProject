@@ -267,6 +267,9 @@ margin-top:50px;
         height: 2rem;
         scale:1.2;
     }
+    #line{
+     display: none;
+    }
     ul{
         flex-direction: column;
         align-items: center;
