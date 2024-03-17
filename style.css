@@ -11,6 +11,7 @@ body{
    sans-serif;
    overflow-x:hidden;
    scroll-behavior: smooth;
+   
 }
 .header1{
     height:3vh;
@@ -107,7 +108,7 @@ margin-top:50px;
 }
 .Services{
     text-align: center;
-
+    overflow: hidden;
   }
   .service-container{
    display: flex;
@@ -121,22 +122,35 @@ margin-top:50px;
     width:20rem;
     padding:1rem;
     z-index:10;
-    box-shadow: 2px 2px 5px 2px #4a4a4a;
+    box-shadow: 2px 2px 5px 2px #232323;
     border-top: 10px solid var(--primary-color);;
-    transition: 0.5s;
+    transition: 0.3s;
     color:#323940;
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 10;
   }
   .service-card:hover{
     scale:1.1;
     background-color: var(--secondary-color);
     color: #fff;
   }
+
 .tempHover{
     scale:1.1;
     background-color: var(--secondary-color);
     color: #fff;
     box-shadow: 2px 2px 5px 2px var(--primary-color);;
 }
+#line{
+    width:1.2%;
+    height:100vh;
+    position: absolute;
+    background-color:var(--primary-color);
+    z-index: -1;
+    right:3% ;
+    bottom: 1%;
+ }
   .icons{
    font-size: 50px;
    color: var(--primary-color);;
@@ -165,7 +179,6 @@ margin-top:50px;
        animation-name: slideIn;
        animation-duration: 1s;
  }
- 
  @keyframes slideIn {
     from {
        transform: translateX(-400px);
