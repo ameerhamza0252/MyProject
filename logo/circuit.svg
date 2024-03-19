@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2560 1600" enable-background="new 0 0 2560 1600" xml:space="preserve">
-<pattern  width="304" height="304" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -304 304 304" overflow="visible">
+<pattern  width="120" height="120" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -304 304 304" overflow="visible">
 	<g>
 		<rect y="-304" fill="#181a1d" width="304" height="304"/>
 		<path d="M0-80v2h44.1c0.401,1.964,1.935,3.498,3.899,3.899c2.706,0.552,5.347-1.193,5.899-3.899s-1.193-5.347-3.899-5.899
