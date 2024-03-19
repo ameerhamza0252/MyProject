@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./logo/favlogo.png"/>
     <link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="./text.css" type="text/css">
     <link rel="stylesheet" href="./animation.css" type="text/css">
@@ -47,13 +48,18 @@
         <div class="banner_text">
               <div>
                 <svg id="svg-laptop" height ="150px" width="150px" viewBox="0 -297 1618 1618" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_iconCarrier"><path d="M1495.104759 90.099858C1495.104759 40.373123 1454.731636 0 1405.004901 0H203.686957C153.960221 0 113.587099 40.373123 113.587099 90.099858v810.890624h1381.51766V90.099858z" fill="#2ECC40"></path>
-                <path d="M1435.040885 108.345676c0-23.025834-18.695083-41.71687-41.720917-41.71687H221.932775c-23.025834 0-41.71687 18.691036-41.71687 41.71687v792.644806h1254.82498V108.345676z" fill="#FFFFFF"></path>
+                  <defs>
+                    <pattern id="imgPattern" patternUnits="userSpaceOnUse" width="1600" height="900">
+                      <image href="./logo/code.jpg" x="0" y="0" width="1600" height="900"/>
+                    </pattern>
+                  </defs>
+                  <path d="M1495.104759 90.099858C1495.104759 40.373123 1454.731636 0 1405.004901 0H203.686957C153.960221 0 113.587099 40.373123 113.587099 90.099858v810.890624h1381.51766V90.099858z" fill="#2ECC40"></path>
+                <path d="M1435.040885 108.345676c0-23.025834-18.695083-41.71687-41.720917-41.71687H221.932775c-23.025834 0-41.71687 18.691036-41.71687 41.71687v792.644806h1254.82498V108.345676z" fill="url(#imgPattern)"  style="background-repeat: no-repeat;" ></path>
                 <path d="M927.76019 66.628806h-240.263589v18.780079a18.788174 18.788174 0 0 0 18.776031 18.776032h202.707479a18.788174 18.788174 0 0 0 18.780079-18.776032v-18.780079zM1615.236553 906.99687c0-3.314846-2.691542-6.006387-6.006387-6.006388H6.022577c-3.314846 0-6.006387 2.691542-6.006387 6.006388v54.057486c0 33.152506 26.915415 60.067921 60.067921 60.067921h1495.088569c33.148458 0 60.063874-26.915415 60.063873-60.067921v-54.057486z" fill="#2ECC40"></path>
                 <path d="M987.824063 888.411067h-360.395383c0 31.14498 25.2843 56.425233 56.425233 56.425233h247.544917c31.140933 0 56.425233-25.280253 56.425233-56.425233z" fill="#FFFFFF"></path>
-                <path d="M867.234909 77.55687m-10.928063 0a10.928063 10.928063 0 1 0 21.856126 0 10.928063 10.928063 0 1 0-21.856126 0Z" fill="#2ECC40"></path></g></svg>
+                <path d="M867.234909 77.55687m-10.928063 0a10.928063 10.928063 0 1 0 21.856126 0 10.928063 10.928063 0 1 0-21.856126 0Z" fill="#2ECC40"></path></svg>
                 <h1 id="heading_text">Let's Make Your <span id="txt01">Vision</span> A <span>Reality!</span></h1>
-                <span class="banner_btn"><a href="https://www.upwork.com/freelancers/~01bd6a50ebdbcbc8af?viewMode=1">Hire Me<i class="fa fa-fw fa-user"></i></a><a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/" target="_blank">Linkedin<i class="fa fa-fw fa-linkedin-square"></i></a></span>
+                <span class="banner_btn"><a href="https://www.upwork.com/freelancers/~01bd6a50ebdbcbc8af?viewMode=1" id="banner_btn_filled">Hire Me<i class="fa fa-fw fa-user"></i></a><a href="https://www.linkedin.com/in/ameer-hamza-b7804523b/" target="_blank">Linkedin<i class="fa fa-fw fa-linkedin-square"></i></a></span>
             </div>
             <div class="thingBox">
                 <div class="thing"></div>
@@ -74,7 +80,6 @@
     <div class='Services'  id="service_box">
      
         <div class='service-container' onmouseover="mouseOver()">
-        
           <div class='service-card reveal'>
             <h2 class="cardTitle">Bespoke Softawre</h2>
                 <i class='fa fa-fw fa-apple icons'></i>
@@ -233,36 +238,6 @@
         <div class="timeline-end">End</div>
       </section>
 
-      <div id="Div_textService">
-        <h1 id="textService">Clients Review<span id="txt02"></span></h1>
-    </div>
-      <div id="client-reviews">
-      <figure class="snip1157">
-        <blockquote>
-          The dedication to crafting a personalized experience is unmatched. Our project’s success is a testament to their innovative approach and attention to detail
-          <div class="arrow"></div>
-        </blockquote>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
-        <div class="author">
-          
-        </div>
-      </figure>
-      <figure class="snip1157 hover">
-        <blockquote>Exceptional technical skill and a keen understanding of our needs led to a product that has truly transformed our business operations <div class="arrow"></div>
-        </blockquote>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
-        <div class="author">
-         
-        </div>
-      </figure>
-      <figure class="snip1157">
-        <blockquote>They didn’t just meet our expectations; they exceeded them, delivering a robust and scalable solution that has propelled our growth<div class="arrow"></div>
-        </blockquote>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
-        <div class="author">
-        
-        </div>
-      </figure>
     </div>
     <div id="text-img">
       <div> <img src="./sapiens.svg" alt="sapiens-logo" id="s-img"></div>

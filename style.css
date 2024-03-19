@@ -104,7 +104,7 @@ margin-top:50px;
     font-family: Biryani,'Roboto',Arial, Helvetica, sans-serif;
     min-height:60vh;
     width:100vw;
- 
+    background: url(./logo/circuit.svg);
 }
 .Services{
     text-align: center;
@@ -123,13 +123,14 @@ margin-top:50px;
     width:20rem;
     padding:1rem;
     z-index:10;
-    box-shadow: 2px 2px 5px 2px #232323;
+    box-shadow: 2px 2px 5px 2px #5a5959;
     border-top: 10px solid var(--primary-color);;
     transition: 0.3s;
     color:#323940;
     cursor: pointer;
     background-color: #fff;
     z-index: 10;
+  
 
   }
   .service-card:hover{
@@ -290,15 +291,15 @@ margin-top:50px;
     }
     .banner_text{
         height:100vh;
-        font-size:12px;
+        font-size:11px;
     }
     .banner_btn a { 
-        padding:0.8rem !important;
         font-size:0.8rem !important;
+  
     }
     .service-card{
-        background-color: var(--secondary-color);
         color: #fff;
+        background:url(./logo/circuit.svg);
         font-size: small;
       }
     .icons{
@@ -307,6 +308,11 @@ margin-top:50px;
     #textService{
         width: 80%;
         margin-top: 10%;
+    }
+    .cardTitle{
+        border: 5px solid var(--primary-color) !important;
+        border-top: none !important;
+        border-bottom: none !important;
     }
     
 }
