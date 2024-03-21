@@ -211,12 +211,14 @@ margin-top:50px;
  }
  .client-card-image:hover{
     translate:100px -50px;
+    opacity: 1;
  }
  .client-card-image{
     width: 300px;
     height: 350px;
     object-fit: cover;
     transition: 0.5s;
+    opacity: 0.8;
  }
  .client-card-text{
     width:300px;
