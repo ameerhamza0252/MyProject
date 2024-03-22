@@ -7,7 +7,7 @@ HTML
 CSS
 JavaScript
 Font Awesome (for icons)
-Google Fonts (Biryani font)
+Google Fonts
 SVG images
 External libraries (Font Awesome, Google Fonts)
 
