@@ -193,68 +193,97 @@ margin-top:50px;
  ul{
     list-style: none;
  }
-.client-review-container{
-    width:100%;
-    border:2px solid red;
-    padding: 10px;
+.client-review-container{ 
+   
+    height: 100vh;
+
+}
+.client-review-inner-container{ 
+    
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+
 }
  .client-review-container-card{
     width:300px;
-    height:350px;
+    height:400px;
     box-shadow: 2px 1px 4px 2px #4d4c4c;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border-left:10px solid #2ECC40;
-    background-color: #ddd;
+    background-color: #181a1d;  
+    transition:0.3s;
  }
- .client-card-image:hover{
-    translate:100px -50px;
-    opacity: 1;
+ .client-review-container-card:hover{
+    translate: 0px 10px;
+    scale: 1.1;
+    box-shadow: none;
+ }
+ .card-top{
+    background-color: #2ECC40;
+    width: 300px;
+    height: 250px;
+    border-bottom-left-radius:50px;
+    display: grid;
+    place-content: center;
+ }
+ .card-bottom{
+    background-color: #2ECC40;
+    width: 300px;
+    height: 150px;
+    transition: 0.5s;
+ }
+ .client-card-image-box{
+    width:200px;
+    border:5px solid #fff;
+    height: 200px;
+    border-radius: 100vw;
+    z-index: 1;
+    transition: 0.5s;
  }
  .client-card-image{
-    width: 300px;
-    height: 350px;
+    width:200px;
+    height: 200px;
+    aspect-ratio:1/2;
     object-fit: cover;
+    border-radius: 100vw;
     transition: 0.5s;
-    opacity: 0.8;
+ }
+ .client-card-image-box:hover{
+ 
+    box-shadow: 2px 5px 2px #0a330f;
  }
  .client-card-text{
-    width:300px;
-    position: absolute;
-    translate:0px 250px;
-    height: 100px;
     color:#fff;
     background-color: #181a1d;
-    border-top-right-radius: 20px; 
+    border-top-right-radius: 50px; 
     text-align: center;
     transition: 0.5s;
     overflow: hidden;
-    
- }
- .client-card-text:hover{
-    translate:0px 150px;
-    height: 200px;
-    border-radius: 0%;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+ 
  }
  .client{
     display: block;
-    margin-top:30px;
     text-align: center;
-    
+    width: 70%;
     padding:5px;
-    border: 2px solid red;
  }
  .name{
-    font-weight: 600;
-    background-color: #2ECC40;
-    border: 0px solid blue;
+    font-weight: 500;
+  
  }
  .review{
     font-size: 14px;
    font-weight: 100;
-
+   width: 80%;
  }
  .footer{
 	background-color: var(--secondary-color);
