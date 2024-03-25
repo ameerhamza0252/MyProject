@@ -51,10 +51,10 @@ window.addEventListener('resize', updateProgressBar);
 
 
 
-const headinglines=['Crafting Code, <span id="txt01">Shaping</span> Tomorrow',
-'Pixels and <span id="txt01">Pixels</span> of Possibilities',
-'Where <span id="txt01">Algorithms</span> Meet Aesthetics',
-`Make Your <span id="txt01">Vision</span> A <span>Reality !</span>`];
+const headinglines=['Crafting Code, <span class="txt01">Shaping</span> Tomorrow',
+'Pixels and <span class="txt01">Pixels</span> of Possibilities',
+'Where <span class="txt01">Algorithms</span> Meet Aesthetics',
+`Make Your <span class="txt01">Vision</span> A <span>Reality !</span>`];
 const heading_text = document.getElementById('heading_text');
 let heading_index = 0;
 const timeFunc = setInterval(()=>{
@@ -65,4 +65,4 @@ if(heading_index>=3){
 else{
   heading_index++;
 }
-},2000);
+},3000);

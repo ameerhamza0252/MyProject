@@ -37,7 +37,7 @@
 .thing:nth-child(5) {animation-delay: 2.0s; }
 .thing:nth-child(6) {animation-delay: 2.5s; }
 
-/* Animation definition */
+/* Animation */
 @keyframes pulse {
   50% {
     opacity: 1;

@@ -1,4 +1,4 @@
-#txt01,
+.txt01,
 #txt02 {
   color: var(--primary-color);
 }
@@ -11,9 +11,9 @@
   border: 5px dashed var(--primary-color);
   border-top: 0;
   border-bottom: 0;
-  font-size: 24px;
+  font-size: 20px;
+  height:30px;
 }
-
 .banner_btn a {
   text-decoration: none;
   color: #fff;
@@ -75,6 +75,7 @@
   width: 90%;
   padding: 10px;
   margin: 0 auto;
+  
 }
 #conference-timeline .timeline-start,
 #conference-timeline .timeline-end {
