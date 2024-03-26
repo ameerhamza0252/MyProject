@@ -8,7 +8,7 @@
   max-height: 80px;
 }
 .cardTitle {
-  border: 5px dashed var(--primary-color);
+  border: 5px solid var(--primary-color);
   border-top: 0;
   border-bottom: 0;
   font-size: 20px;
