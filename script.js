@@ -2,7 +2,7 @@
 function menu(){
     let navHeight=document.getElementById("top");
     if(navHeight.style.height=="" || navHeight.style.height=='0vh'){
-        navHeight.style.height="40vh";
+        navHeight.style.height="50vh";
     }
     else
     {
@@ -35,7 +35,9 @@ function reveal() {
   function mouseOver() {
     cards[index].classList.remove('tempHover');
   }
+  if(screen.width>=556){
   selectedHover();
+  }
 
   // Progress bar
 function updateProgressBar() {
