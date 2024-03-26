@@ -22,9 +22,9 @@ body{
     text-align: center;
     color:#fff;
 }
-header{
+.header{
     position: sticky;
-    top: 0%;
+    top:0%;
     width:100%;
     background-color: var(--secondary-color);
     border-left: none;
