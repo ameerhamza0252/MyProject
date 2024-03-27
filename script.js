@@ -27,6 +27,24 @@ function reveal() {
   }
   window.addEventListener("scroll", reveal);
 
+
+  
+  function revealcards() {
+    var revealcards = document.querySelectorAll(".revealcards");
+    for (var i = 0; i < revealcards.length; i++) {
+      var windowH = window.innerHeight;
+      var elementT = revealcards[i].getBoundingClientRect().top;
+      if (elementT < windowH - 100) {
+        revealcards[i].classList.add("active-client");
+        revealcards[i].classList.add("client-review-container-card");
+  
+      } else {
+        revealcards[i].classList.remove("active-client");
+      }
+    }
+  }
+  window.addEventListener("scroll", revealcards);
+
   var cards = document.getElementsByClassName("service-card");
   var index = 1;
   function selectedHover(){
