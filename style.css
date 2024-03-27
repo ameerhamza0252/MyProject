@@ -1,6 +1,8 @@
 :root {
     --primary-color: #2ECC40;
     --secondary-color: #181a1d;
+    --width-container:280px;
+    --height-container:400px;
   }
 
 body{
@@ -118,6 +120,7 @@ margin-top:50px;
    place-content: center;
    gap:2rem;
    padding:1rem;  
+   
   }
   .service-card{
     max-height:22rem;
@@ -131,6 +134,7 @@ margin-top:50px;
     cursor: pointer;
     background-color: #fff;
     z-index: 10;
+    
   
   }
   .service-card:hover{
@@ -210,8 +214,8 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
     gap: 30px;
 }
  .client-review-container-card{
-    max-width:280px;
-    height:400px;
+    max-width:var(--width-container);
+    height:var(--height-container);
     box-shadow: 2px 1px 4px 2px #4d4c4c;
     display: flex;
     align-items: center;
@@ -221,7 +225,7 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
  }
  .card-top{
     background-color:var(--primary-color);
-    width: 280px;
+    width: var(--width-container);
     height: 250px;
     border-bottom-left-radius:50px;
     display: grid;
@@ -229,7 +233,7 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
  }
  .card-bottom{
     background-color: var(--primary-color);
-    width: 280px;
+    width: var(--width-container);
     height: 150px;
     transition: 0.5s;
  }
@@ -429,7 +433,19 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
         border-top: none !important;
         border-bottom: none !important;
     }
-    
+    .client-review-container-card{
+        --width-container:250px;
+        --height-container:350px;
+        transition:5s;
+    }
+ .client-card-image{
+    width: 150px;
+    height: 150px;
+ }
+ .client-card-image-box{
+    width: 150px;
+    height: 150px;
+ }
 }
 @media only screen and (min-width: 1530px) {
     .service-container{
