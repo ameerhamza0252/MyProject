@@ -436,7 +436,6 @@ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/sv
     .client-review-container-card{
         --width-container:250px;
         --height-container:350px;
-        transition:5s;
     }
  .client-card-image{
     width: 150px;
