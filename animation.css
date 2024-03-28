@@ -22,7 +22,7 @@
   border-radius: 10%;
   font-size: large;
   margin-bottom: 10px;
-  background-color: #2ECC40;
+  background-color: var(--primary-color);
   transform: rotate(90deg);
   animation-name: pulse;
   animation-duration:5s;
