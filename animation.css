@@ -15,6 +15,27 @@
   align-items: center;
   justify-content: center;
 }
+.gear{
+  position: absolute;
+  height: 40rem;
+  width: 40rem;
+  right: 85%;
+  animation:rotation;
+  animation-duration:20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotation {
+  to{
+    transform: rotate(0deg);
+ 
+  }
+  from{
+    transform: rotate(180deg);
+    
+  }
+}
+
 .thing {
   width: 20px;
   height: 20px;
@@ -24,7 +45,7 @@
   margin-bottom: 10px;
   background-color: var(--primary-color);
   transform: rotate(90deg);
-  animation-name: pulse;
+  animation-name: blink;
   animation-duration:5s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
@@ -37,7 +58,7 @@
 .thing:nth-child(6) {animation-delay: 2.5s; }
 
 /* Animation */
-@keyframes pulse {
+@keyframes blink {
   50% {
     opacity: 1;
   }
