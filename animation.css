@@ -25,6 +25,16 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+.gear2{
+  position: absolute;
+  height: 40rem;
+  width: 40rem;
+  left: 85%;
+  animation:rotation;
+  animation-duration:20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 @keyframes rotation {
   to{
     transform: rotate(0deg);

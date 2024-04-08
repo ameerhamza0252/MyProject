@@ -257,6 +257,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     display: none;
   }
   #conference-timeline .conference-center-line {
-    height: 96%;
+    height: 95%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #conference-timeline .conference-center-line {
+    height: 97%;
   }
 }
