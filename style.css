@@ -136,6 +136,7 @@ margin-top:10px;
     cursor: pointer;
     background-color: #fff;
     z-index: 10;
+    position: relative;
   }
   .service-card:hover{
     scale:1.1;
@@ -199,7 +200,7 @@ margin-top:10px;
     list-style: none;
  }
 .client-review-container{ 
-    min-height:93vh;
+   
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -290,10 +291,10 @@ margin-top:10px;
  }
  
  .revealcards{
-    transform: translateX(-600px);
+    transform: translateX(-150px);
     left: 0%;
     opacity: 0;
-    transition:1s ease-in;
+    transition:1s;
   }
   
 .revealcards.active-client{
@@ -464,6 +465,10 @@ margin-top:10px;
     line-height: 10px;  
     width: 100%;
     left: 0%;
+ }
+ .client-card-text:hover{
+    translate:0px -200px;
+    height: 350px;
  }
 }
 @media only screen and (min-width: 1530px) {

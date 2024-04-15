@@ -45,6 +45,18 @@ function reveal() {
   }
   window.addEventListener("scroll", revealcards);
 
+  function revealTimeline() {
+    var revealtimeline = document.querySelectorAll(".revealtimeline");
+    console.log("timeline",revealtimeline);
+      var windowHT = window.innerHeight;
+      var elementHT = revealtimeline[0].getBoundingClientRect().top;
+      if (elementHT < windowHT - 100) {
+        revealtimeline[0].classList.add("active-timeline");
+        revealtimeline[0].classList.add("conference-center-line");
+      }
+  }
+  window.addEventListener("scroll", revealTimeline);
+
   var cards = document.getElementsByClassName("service-card");
   var index = 1;
   function selectedHover(){
