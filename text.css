@@ -6,6 +6,7 @@
   color: #585c61;
   max-width: 100%;
   max-height: 80px;
+  
 }
 .cardTitle {
   border: 5px solid var(--primary-color);
@@ -68,7 +69,6 @@
   width: 150px;
   height: 150px;
 }
-
 #section-container{
   margin-top:100px;
 
@@ -111,6 +111,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin-left: -2px;
   background: var(--primary-color);
   z-index:0;
+ 
 }
 #conference-timeline .conference-timeline-content {
   padding-top: 67px;
@@ -128,8 +129,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   max-width: 44%;
   width: 100%;
   text-align: center;
-  
- 
 }
 .timeline-article .content-left,
 .timeline-article .content-right {
@@ -143,6 +142,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   justify-content: center;
   border-radius: 20px 0px 20px 0px;
   padding: 10px;
+  transition: 1s;
+  scale: 0.9;
+}
+
+.timeline-article .content-right:hover{
+  scale: 1;
+  background-color: var(--secondary-color);
+}
+.timeline-article .content-left:hover{
+  scale: 1;
+  background-color: var(--secondary-color);
 }
 .timeline-article p {
   margin: 0 0 0 60px;
@@ -212,10 +222,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .timeline-article .meta-data .process {
   font-size: 20px;
   line-height: 60px;
+  
 }
 .revealtimeline{
   height: 0%;
   transition:3s ease-in;
+  border: 1px solid transparent;
+
 }
 
 .revealtimeline.active-timeline{
@@ -276,5 +289,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
   .timeline-article p span.article-number {
     font-size: 15px;
+    width: 50%;
   }
 }

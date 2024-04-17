@@ -3,6 +3,7 @@
     --secondary-color: #181a1d;
     --width-container:280px;
     --height-container:400px;
+    
   }
 
 body{
@@ -13,7 +14,6 @@ body{
    sans-serif;
    overflow-x:hidden;
    scroll-behavior: smooth;
-   background-color: #fff;
 }
 
 .header1{
@@ -169,7 +169,7 @@ margin-top:10px;
 }
 .alert-msg{
        background: var(--secondary-color);
-       bottom: 25px;
+       bottom: 35px;
        color: #fff;
        box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
        left: 25px;
@@ -182,6 +182,7 @@ margin-top:10px;
        border:2px solid #fff;
        border-radius: 10px;
        cursor: grab;
+       height: 20px;
 }
        
  .slide-in {
