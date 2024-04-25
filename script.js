@@ -47,7 +47,6 @@ function reveal() {
 
   function revealTimeline() {
     var revealtimeline = document.querySelectorAll(".revealtimeline");
-    console.log("timeline",revealtimeline);
       var windowHT = window.innerHeight;
       var elementHT = revealtimeline[0].getBoundingClientRect().top;
       if (elementHT < windowHT - 100) {
@@ -80,7 +79,17 @@ function updateProgressBar() {
 updateProgressBar(); 
 window.addEventListener('scroll', updateProgressBar);
 window.addEventListener('resize', updateProgressBar);
+window.addEventListener('scroll',rotate);
 
+function rotate(){
+  let icons =  document.querySelectorAll('.client-review-box i');
+  var windowRotate = window.innerHeight;
+  var elementRotate = icons[0].getBoundingClientRect().top;
+  if (elementRotate < windowRotate - 100) {
+  let randomNumber=Math.floor( Math.random()*icons.length);
+  icons[randomNumber].classList.toggle('icon-rotate');
+ }
+}
 
 
 const headinglines=['Crafting Code, <span class="txt01">Shaping</span> Tomorrow',

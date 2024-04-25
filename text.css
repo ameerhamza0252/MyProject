@@ -48,22 +48,31 @@
   align-items: center;
 }
 #text-img {
-  font-size: 25px;
   width: 100%;
   height: fit-content;
   text-align: center;
-  margin-top: 10vh;
+  padding:10px;
 }
 #text-img {
   background-color: rgb(240, 248, 255);
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;  
 }
 #text-box {
+  color: #979595;
+  font-size: 20px;
+  letter-spacing:1px;
+  text-align: justify;
+  width:45%;
+}
+#imagebox{
+width: 45%;
+}
+#s-img{
   width: 100%;
-  color: #ddd;
 }
 .logo-img {
   width: 150px;
@@ -126,7 +135,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .timeline-article .content-left-container,
 .timeline-article .content-right-container {
-  max-width: 44%;
+  max-width: 40%;
   width: 100%;
   text-align: center;
 }
@@ -140,10 +149,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px 0px 20px 0px;
   padding: 10px;
   transition: 1s;
   scale: 0.9;
+  
+}
+.timeline-article .content-left{
+  border-radius: 50px 5px 0px 0px;
+}
+.timeline-article .content-right{
+  border-radius: 0px 50px 5px 0px;
 }
 
 .timeline-article .content-right:hover{
@@ -257,6 +272,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-left: 110px;
     min-height: 53px;
   }
+  .timeline-article .content-left,
+  .timeline-article .content-right{
+    border-radius: 0px 50px 5px 0px;
+  }
   .timeline-article .content-left-container {
     margin-bottom: 20px;
   }
@@ -280,6 +299,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   .revealtimeline.active-timeline{
     height: 90% !important;
   }
+  #imagebox{
+    height: auto;
+    }
+  #text-box {
+    color: #979595;
+    font-size: 10px;
+    letter-spacing:1px;
+    text-align:justify;
+    width: 100%;
+    padding:5px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .timeline-article p {
@@ -291,4 +321,5 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-size: 15px;
     width: 50%;
   }
+ 
 }

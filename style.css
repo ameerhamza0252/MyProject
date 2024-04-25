@@ -129,7 +129,7 @@ margin-top:10px;
     width:20rem;
     padding:1rem;
     z-index:10;
-    box-shadow: 2px 2px 5px 2px #5a5959;
+    box-shadow: 5px 5px 8px#ABBED1;
     border-top: 10px solid var(--primary-color);;
     transition: 0.2s ease-in-out;
     color:#323940;
@@ -163,10 +163,7 @@ margin-top:10px;
    font-size: 50px;
    color: var(--primary-color);;
   }
-#s-img{
-    max-width: 70%;
-    height: auto;
-}
+
 .alert-msg{
        background: var(--secondary-color);
        bottom: 35px;
@@ -219,7 +216,7 @@ margin-top:10px;
  .client-review-container-card{
     max-width:var(--width-container);
     height:var(--height-container);
-    box-shadow: 2px 1px 4px 2px #4d4c4c;
+    box-shadow: 5px 5px 8px#ABBED1;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -303,23 +300,22 @@ margin-top:10px;
     opacity: 1;
   }
  .client-review-box{
-    width:80%;
+    width:100%;
     height: 95px;
-    background-color: var(--primary-color);
-    left: 10%;
-    position: absolute;
-    bottom:-80px;
+    background-color: var(--secondary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
     color: #fff;
     padding: 3px;
+    font-size: 60px;
  }
- .client-box-text{
-    border: 2px solid #fff;
-    padding: 10px;
-   
+ .client-review-box i{
+    transition:1s linear;
+ }
+ .icon-rotate{
+    transform:rotateY(360deg);
  }
  .footer{
 	background-color: var(--secondary-color);
@@ -434,6 +430,7 @@ margin-top:10px;
         background:url(./logo/circuit.svg);
         background-size: cover;
         font-size: small;
+        box-shadow: 2px 4px 6px#ABBED1  ;
       }
     .icons{
         font-size:40px;
@@ -471,14 +468,15 @@ margin-top:10px;
     translate:0px -200px;
     height: 350px;
  }
+ .client-review-box{
+    
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;}
 }
 @media only screen and (min-width: 1530px) {
     .service-container{
         display: grid;
         grid-template-columns: auto auto auto;
     }
-    .client-review-container{
-        min-height:60vh;
-    }
-
 }
