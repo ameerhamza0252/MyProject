@@ -82,6 +82,11 @@ min-height: 100dvh;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.text-container-C1 a:hover{
+  background-color: #18e423;
+  scale: 1.1;
 }
 #text-container p{
   padding:30px;
