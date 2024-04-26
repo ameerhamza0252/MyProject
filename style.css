@@ -478,10 +478,13 @@ background-color: #fff;
     height: 350px;
  }
  .client-review-box{
-    
-    justify-content: center;
-    gap: 15px;
-    font-size: 16px;}
+    width: 90vw;
+    justify-content:space-around;
+    font-size: 18px;
+    padding:5px;
+    text-align: center;
+    margin: auto;
+}
 }
 @media only screen and (min-width: 1530px) {
     .service-container{

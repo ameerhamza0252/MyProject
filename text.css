@@ -280,7 +280,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .revealtimeline.active-timeline{
   height: 88%;
 }
-
+.Alert{
+  padding: 20px;
+  height:100px;
+  width: 250px;
+  border-radius: 10px;
+  line-height: 35px;
+  text-align: center;
+  border-top:10px solid #18e423;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  position:fixed;
+  display:none;
+}
+#fail{
+  border-top:10px solid #c80f0f;
+}
 @media only screen and (max-width: 830px) {
   #conference-timeline .timeline-start,
   #conference-timeline .timeline-end {
