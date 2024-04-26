@@ -195,11 +195,13 @@
             flag3=true;
         }
     if(flag1&flag2&flag3){
-    push(ref(db,'ClientMessages'),{
+    let cmail=ClientEmail.value;
+    cmail=cmail.slice(0,cmail.indexOf("@"));
+    console.log(cmail);
+    push(ref(db,cmail),{
       Name:ClientFname.value,
       Email:ClientEmail.value,
       Message:ClientMessage.value
-
     }).then(()=>{
         success.style.display = "block";
         setTimeout(()=>{
